@@ -26,7 +26,7 @@ def main():
     if 'loaded_email' not in st.session_state:
         st.session_state.loaded_email = None
     
-    st.logo(image='static/image.png', size='large')
+    st.logo(image='static/Image.png', size='large')
     st.subheader('Phishing email classifier')
     st.caption('This phishing app uses two models, logistic regression model and the support vector machine model'
                ' having the highest precision of 99%. Check if the email you received is a phishing one ')
