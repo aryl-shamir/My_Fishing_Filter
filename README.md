@@ -6,7 +6,7 @@ It uses two trained models:
 - **Logistic Regression**
 - **Support Vector Machine (SVM)**
 
-The app is built with **Streamlit** for easy interaction, you can try it here ([link]((https://myfishingfilter-u2pyk2xucsuownep7k48q4.streamlit.app/)))
+The app is built with **Streamlit** for easy interaction, you can try it here ([link](https://myfishingfilter-u2pyk2xucsuownep7k48q4.streamlit.app/))
 
 
 This work was inspired by a research article on arXiv ([link](https://arxiv.org/abs/2303.08792)), and the project reproduces and adapts some of the methods proposed in that paper for email phishing detection.
