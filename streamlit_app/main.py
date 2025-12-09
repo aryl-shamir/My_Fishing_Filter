@@ -5,7 +5,7 @@ import joblib
 
 # Path to phishing_filter/
 BASE_DIR = Path(__file__).resolve().parent.parent
-MODEL_DIR = BASE_DIR / "models"
+MODEL_DIR = BASE_DIR / "Models"
 
 sys.path.insert(0, str(BASE_DIR/'scripts'))
 from get_email import email_parser
