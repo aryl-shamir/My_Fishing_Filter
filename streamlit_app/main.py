@@ -7,7 +7,8 @@ import joblib
 BASE_DIR = Path(__file__).resolve().parent.parent
 MODEL_DIR = BASE_DIR / "Models"
 
-sys.path.insert(0, str(BASE_DIR/'scripts'))
+# sys.path.insert(0, str(BASE_DIR/'scripts'))
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from get_email import email_parser
 
 from tokens_class import (MAX_CHARS, clean_text,
