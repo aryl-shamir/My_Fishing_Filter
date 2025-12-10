@@ -32,7 +32,7 @@ def main():
                ' having the highest precision of 99%. Check if the email you received is a phishing one ')
     
     with st.sidebar.header('1. Upload your emails'):
-        uploaded_file = st.file_uploader('Upload your email file(s) here', type=['eml'])
+        uploaded_file = st.file_uploader('Upload your (.eml) email file(s) here', type=['eml'])
         
     
     if uploaded_file is not None:
